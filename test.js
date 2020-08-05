@@ -1,4 +1,5 @@
 // hello.js
 const Eagle = require('electron-win-app-rect');
-const rect = Eagle.getWindowRect();
+const sourceId = 0x123;
+const rect = Eagle.getWindowRect(sourceId);
 console.log(rect);

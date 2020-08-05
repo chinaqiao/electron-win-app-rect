@@ -1,6 +1,6 @@
 {
   "name": "electron-win-app-rect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "electron 通过desktopCapturer.getSources返回的source.id获取桌面窗口坐标",
   "main": "main.js",
   "scripts": {
