@@ -1,6 +1,6 @@
 {
   "name": "electron-win-app-rect",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "electron 通过desktopCapturer.getSources返回的source.id获取桌面窗口坐标",
   "main": "main.js",
   "repository": {
@@ -12,6 +12,7 @@
   ],
   "author": "eagle",
   "license": "ISC",
+  "gypfile": false,
   "bugs": {
     "url": "https://github.com/chinaqiao/electron-win-app-rect/issues"
   },
