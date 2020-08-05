@@ -1,0 +1,24 @@
+{
+  "name": "electron-win-app-rect",
+  "version": "1.0.0",
+  "description": "electron 通过desktopCapturer.getSources返回的source.id获取桌面窗口坐标",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild --arch=x64 --target=6.1.12 --dist-url=https://atom.io/download/electron"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinaqiao/electron-win-app-rect.git"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "eagle",
+  "license": "ISC",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/chinaqiao/electron-win-app-rect/issues"
+  },
+  "homepage": "https://github.com/chinaqiao/electron-win-app-rect#readme"
+}
