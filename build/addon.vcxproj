@@ -48,7 +48,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\include\node;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\src;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\deps\openssl\config;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\deps\openssl\openssl\include;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\deps\uv\include;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\deps\zlib;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\deps\v8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\include\node;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\src;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\deps\openssl\config;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\deps\openssl\openssl\include;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\deps\uv\include;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\deps\zlib;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\deps\v8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
@@ -59,7 +59,7 @@
       <OmitFramePointers>false</OmitFramePointers>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=addon;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;DEBUG;_DEBUG;V8_ENABLE_CHECKS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=addon;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_THREADS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;DEBUG;_DEBUG;V8_ENABLE_CHECKS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <StringPooling>true</StringPooling>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -71,7 +71,7 @@
       <AdditionalOptions>/LTCG:INCREMENTAL %(AdditionalOptions)</AdditionalOptions>
     </Lib>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\\Users\\AndyP1\\AppData\\Local\\node-gyp\\Cache\\12.18.3\\x64\\node.lib&quot;</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\\Users\\AndyP1\\AppData\\Local\\node-gyp\\Cache\\6.1.12\\x64\\node.lib&quot;</AdditionalDependencies>
       <AdditionalOptions>/LTCG:INCREMENTAL /ignore:4199 %(AdditionalOptions)</AdditionalOptions>
       <DelayLoadDLLs>node.exe;%(DelayLoadDLLs)</DelayLoadDLLs>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -83,13 +83,13 @@
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\include\node;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\src;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\deps\openssl\config;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\deps\openssl\openssl\include;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\deps\uv\include;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\deps\zlib;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\deps\v8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=addon;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;DEBUG;_DEBUG;V8_ENABLE_CHECKS;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\include\node;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\src;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\deps\openssl\config;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\deps\openssl\openssl\include;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\deps\uv\include;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\deps\zlib;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\deps\v8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=addon;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_THREADS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;DEBUG;_DEBUG;V8_ENABLE_CHECKS;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\include\node;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\src;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\deps\openssl\config;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\deps\openssl\openssl\include;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\deps\uv\include;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\deps\zlib;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\deps\v8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\include\node;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\src;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\deps\openssl\config;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\deps\openssl\openssl\include;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\deps\uv\include;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\deps\zlib;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\deps\v8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
       <DisableSpecificWarnings>4351;4355;4800;4251;4275;4244;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
@@ -102,7 +102,7 @@
       <OmitFramePointers>true</OmitFramePointers>
       <Optimization>Full</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=addon;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=addon;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_THREADS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <StringPooling>true</StringPooling>
@@ -115,7 +115,7 @@
       <AdditionalOptions>/LTCG:INCREMENTAL %(AdditionalOptions)</AdditionalOptions>
     </Lib>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\\Users\\AndyP1\\AppData\\Local\\node-gyp\\Cache\\12.18.3\\x64\\node.lib&quot;</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\\Users\\AndyP1\\AppData\\Local\\node-gyp\\Cache\\6.1.12\\x64\\node.lib&quot;</AdditionalDependencies>
       <AdditionalOptions>/LTCG:INCREMENTAL /ignore:4199 %(AdditionalOptions)</AdditionalOptions>
       <DelayLoadDLLs>node.exe;%(DelayLoadDLLs)</DelayLoadDLLs>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -127,15 +127,15 @@
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\include\node;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\src;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\deps\openssl\config;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\deps\openssl\openssl\include;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\deps\uv\include;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\deps\zlib;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\12.18.3\deps\v8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=addon;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\include\node;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\src;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\deps\openssl\config;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\deps\openssl\openssl\include;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\deps\uv\include;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\deps\zlib;C:\Users\AndyP1\AppData\Local\node-gyp\Cache\6.1.12\deps\v8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=addon;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_THREADS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="..\binding.gyp"/>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\hello.cc"/>
+    <ClCompile Include="..\main.cc"/>
     <ClCompile Include="C:\Users\AndyP1\AppData\Roaming\npm\node_modules\node-gyp\src\win_delay_load_hook.cc"/>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>

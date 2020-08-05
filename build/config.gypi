@@ -75,8 +75,9 @@
     "v8_use_siphash": 1,
     "v8_use_snapshot": 1,
     "want_separate_host_toolset": 0,
-    "nodedir": "C:\\Users\\AndyP1\\AppData\\Local\\node-gyp\\Cache\\12.18.3",
+    "nodedir": "C:\\Users\\AndyP1\\AppData\\Local\\node-gyp\\Cache\\6.1.12",
     "standalone_static_library": 1,
-    "msbuild_path": "C:\\software\\Microsoft Visual Studio\\2019\\Professional\\MSBuild\\Current\\Bin\\MSBuild.exe"
+    "msbuild_path": "C:\\software\\Microsoft Visual Studio\\2019\\Professional\\MSBuild\\Current\\Bin\\MSBuild.exe",
+    "target": "6.1.12"
   }
 }
