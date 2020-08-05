@@ -30,10 +30,10 @@ void GetWindowRect(const FunctionCallbackInfo<Value>& args) {
 		return;
 	}
 	int hwnd = args[0].As<Number>()->Value();
-	std::cout << "arg : [" << hwnd << "] " << std::endl;
+	// std::cout << "arg : [" << hwnd << "] " << std::endl;
 	RECT rect;
 	GetWindowRect((HWND)hwnd, (LPRECT)&rect);
-	std::cout << "(" << hwnd << ")  left:" << rect.left << ", top:" << rect.top << ", right:" << rect.right << ", bottom:" << rect.bottom << std::endl;
+	// std::cout << "(" << hwnd << ")  left:" << rect.left << ", top:" << rect.top << ", right:" << rect.right << ", bottom:" << rect.bottom << std::endl;
 		
 	Local<Number> left = Number::New(isolate, rect.left);
 	Local<Number> top = Number::New(isolate, rect.top);
@@ -47,7 +47,6 @@ void GetWindowRect(const FunctionCallbackInfo<Value>& args) {
 	obj->Set(context, String::NewFromUtf8(isolate, "bottom", NewStringType::kNormal).ToLocalChecked(), bottom).FromJust();
 
 	args.GetReturnValue().Set(obj);
-	
 }
 void init(Local<Object> exports) {
 	NODE_SET_METHOD(exports, "getWindowRect", GetWindowRect);
